@@ -1,0 +1,42 @@
+.card{
+    position: relative;
+    z-index: 0;
+    height: 400px;
+    width: 49%;
+    margin-top: 50px;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.name{
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.location{
+    font-size: smaller;
+    color: rgb(77, 77, 77);
+    margin: 0;
+}
+
+.starholder{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.star{
+    color: grey;
+}
+
+.selectedstar{
+    color: orange;
+}

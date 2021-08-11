@@ -1,0 +1,51 @@
+.plan{
+    width: 94%;
+    margin-left: 5px;
+    margin-right: auto;
+    height: 90px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-bottom: 5px;
+}
+
+.selected{
+    border: 2px solid orange;
+}
+
+.textholder{
+    width: 90%;
+    float: left;
+}
+
+.iconholder{
+    width: 10%;
+    float: right;
+    margin-top: 5px;
+}
+
+p{
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+
+
+.monthlyprice{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.discountedprice{
+    color: orange;
+}
+
+.checkmark{
+    color: grey;
+    float: right;
+    margin-top:32.5px;
+}
+.selectedcheckmark{
+    color: orange;
+}
+

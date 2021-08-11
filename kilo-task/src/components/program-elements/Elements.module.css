@@ -1,0 +1,47 @@
+.container{
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.iconholder{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.iconholder img{
+    height: 100%;
+}
+
+.textholder{
+    width: 75%;
+    height: 100%;
+    float: right;
+    text-align: left;
+    font-size: 90%;
+}
+
+.headtext{
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.bodytext{
+    font-size: smaller;
+    color: rgb(77, 77, 77);
+    margin: 0;
+}
